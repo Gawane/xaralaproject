@@ -1,0 +1,280 @@
+a{
+	color:black;
+}
+em{
+	color:#A5B4FC;
+}
+em{
+	color:#A5B4FC;
+}
+h1{
+	font-size:3.5em;
+	color:#A5B4FC;
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-size:1.1em;
+	font-family: 'Manrope', sans-serif;
+	margin-bottom: 50px;
+}
+ul,ol{
+	font-size:1em;
+	font-family: 'Manrope', sans-serif;
+}
+a{
+	text-decoration:none;
+	font-size:1em;
+	font-family: 'Manrope', sans-serif;
+}
+body{
+	background-color:#1F2039;
+}
+a{
+	color:#242424;
+	
+}
+p,ul,ol{
+	color:#F9F8FF;
+}
+.mon-compte{
+	font-family: 'Manrope', sans-serif;
+	background:linear-gradient(90deg,#8E86B5,#ACAEED);
+	padding:20px 30px;
+	color: white;
+	border-radius: 50px;
+	display: inline-block;
+	margin: auto;
+}
+.compte{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.element{
+	border-right:1px #8e86b5 double;
+	border-bottom:1px #8e86b5 solid;
+	padding:50px;	
+	margin-bottom: 15px;
+	color: white;
+}
+.element h2{
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration:underline;
+}
+.mon-compte:hover{
+	background:linear-gradient(45deg,#696484,#8788BA);
+	text-decoration:none;
+}
+.ma-page:hover{
+	opacity:0.5;
+}
+header,footer{
+	padding:20px 50px 20px 50px;
+	background-color:white;
+}
+section{
+	padding: 80px;
+}
+.element ul{
+	margin-top:30px;
+}
+.cont1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	align-items: center;
+}
+nav a {
+	margin-left: 30px;
+}
+.cont2{
+	display: flex;
+}
+.cont2 div {
+	margin: 50px;
+}
+.cont3{
+	background-color: white;
+	padding: 80px;
+	margin-bottom: 50px;
+}
+.cont3 h2 {
+  color: black;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.sous1,.sous2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.sous1 img,.sous2 img{
+	margin: 15px;
+}
+footer,.ma-page0{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;	
+	align-items: center;
+}
+.mon-portfolio,.ma-page{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.portfolio-section-photos{
+	background-color: white;
+	margin-bottom: 50px;
+}
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-bottom: 80px;
+}
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-paysages,.grid-portraits{
+	display: grid;
+	grid-template-rows: 300px 300px 300px;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+}
+.grid-paysages a,.grid-portraits a{
+	position: relative;
+}
+.photo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5em;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+.grid-paysages a:hover .photo {
+  display: flex;
+  z-index: 2;
+}
+.grid-portraits a:hover .photo {
+  display: flex;
+  z-index: 2;
+}
+td{
+	border: 1px solid #8E86B5;
+	padding: 50px 25px;
+}
+th{
+	border: 1px solid #8E86B5;
+	padding: 10px;
+}
+caption{
+	padding-bottom: 25px;
+}
+	
+table{
+	border-collapse: collapse;
+	margin: auto;
+	color: white;
+	font-family: 'Manrope', sans-serif;
+}
+.section-contact h2{
+	color: #a5b4fc;
+	text-align: center;
+	margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+.group{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+#envo{
+	width: 200px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px;
+	background-color:#8E86B5;
+	border-radius: 30px;
+}
+@media screen and (min-width: 996px) and (max-width: 1000px) and (orientation: portrait) {
+	h1,h2 {
+		font-size: 2em;
+	}
+	table{
+		display: none;
+	}
+	body{
+		padding: 20px;
+	}
+	header,footer,section{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 996px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav img {
+    margin-bottom: 20px;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+	
